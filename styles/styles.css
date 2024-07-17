@@ -117,6 +117,20 @@
     padding:50px;
 }
 
+/* sponsor companys styles  */
+.sponsor{
+    width:1110px;
+    border:1px solid red;
+    margin:0 auto;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+.sponsor img{
+width:986pxl;
+/* filter: grayscale(100%); */
+}
+
 /* responsive media query */
 
 @media screen and (max-width:576px) {
@@ -163,4 +177,17 @@
     .btn-primary{
         width:194px;
     }
+
+/* sopnsor company style */
+.sponsor{
+    width:275px;
+    grid-template-columns: repeat(4, 1fr);
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 52px;
+}
+.sponsor img{
+    width:100%;
+}
 }
